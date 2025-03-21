@@ -44,10 +44,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build project (si nécessaire)
-        run: npm run build
-
       - name: Deploy to server
-        
         run: |
-          echo "deploiement reussie" 
+          echo "Déploiement réussi"
